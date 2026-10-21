@@ -1,6 +1,6 @@
 ﻿# Next Chapter — A practical layoff guide
 
-A local, no-dependency guide for people navigating a layoff in the United States. It includes a time-based checklist, questions for HR, benefit decision prompts, adaptable email scripts, and links to official resources.
+A local, no-dependency guide for people navigating a layoff in the United States. It includes a time-based checklist, questions for HR, benefit and personal finance decision prompts, adaptable email scripts, and links to official resources.
 
 ## Open it
 
@@ -17,7 +17,7 @@ Open `index.html` in a current browser. There is no install, server, or network 
 
 This is general information, not legal, tax, financial, or benefits advice. Eligibility and timing depend on location, employer, plan terms, and individual facts. Confirm current rules with the appropriate agency and get qualified advice for decisions with significant consequences.
 
-Official primary sources are linked in the relevant sections: U.S. Department of Labor (severance, final pay, COBRA, state labor and unemployment offices, WARN), HealthCare.gov (Marketplace coverage), and the Internal Revenue Service (retirement plans). Reviewed October 2026. Government pages and rules can change; follow current agency guidance and the dates in your own notices.
+Official primary sources are linked in the relevant sections: U.S. Department of Labor (severance, final pay, COBRA, state labor and unemployment offices, WARN), HealthCare.gov (Marketplace coverage), Federal Student Aid (federal student loans), Consumer Financial Protection Bureau (private student loans and bill planning), and the Internal Revenue Service (retirement plans and taxes). Reviewed October 2026. Government pages and rules can change; follow current agency guidance and the dates in your own notices.
 
 ## Files
 
