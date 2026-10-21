@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="A calm, practical U.S. layoff guide with an action checklist, HR questions, benefits decisions, and official resources.">
+  <title>Next Chapter — A practical layoff guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to guide</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Next Chapter home"><span class="brand-mark">↗</span><span>next chapter</span></a>
+    <nav aria-label="Main navigation"><a href="#checklist">Your plan</a><a href="#hr">HR meeting</a><a href="#decisions">Benefits</a><button class="button button-small" id="print-button" type="button">Print guide</button></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">A practical guide for a hard moment</p>
+        <h1>You don’t have to solve it all <em>today.</em></h1>
+        <p class="hero-intro">A layoff can make everything feel urgent. Start with the next useful step, get the details in writing, and give yourself room to make informed choices.</p>
+        <a class="button button-primary" href="#checklist">Start with your plan <span aria-hidden="true">↓</span></a>
+        <p class="small-note">Made for people navigating a job loss in the United States.</p>
+      </div>
+      <aside class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><p><strong>First, take a breath.</strong><br>Save any documents you’re allowed to keep, write down what you know, and ask when you can expect the written details.</p><span class="note-line"></span><small>You can come back to this guide as things become clearer.</small></aside>
+      <div class="hero-stamp" aria-hidden="true"><span>one step<br>at a time</span><b>✳</b></div>
+    </section>
+
+    <section class="section checklist-section" id="checklist">
+      <div class="section-heading"><div><p class="eyebrow">01 / Your next steps</p><h2>A plan for the next few weeks</h2><p class="section-lede">You can check things off as you go. Your progress is saved on this device.</p></div><div class="progress-card"><span class="progress-label">YOUR PROGRESS</span><strong id="progress-count">0 of 12 done</strong><div class="progress-track" role="progressbar" aria-label="Checklist progress" aria-valuemin="0" aria-valuemax="12" aria-valuenow="0"><span id="progress-bar"></span></div><button type="button" class="text-button" id="reset-progress">Reset progress</button></div></div>
+      <div class="timeline">
+        <article class="time-card"><div class="time-label"><span class="time-dot coral"></span><span>Right now</span></div><h3>Get oriented</h3><ul class="task-list">
+          <li><label><input type="checkbox" data-task="a1"><span>Ask for the decision, your last day, and next steps in writing.</span></label></li>
+          <li><label><input type="checkbox" data-task="a2"><span>Confirm who to contact in HR and when benefits coverage ends.</span></label></li>
+          <li><label><input type="checkbox" data-task="a3"><span>Save personal contact details and permitted copies of your own records.</span></label></li>
+        </ul></article>
+        <article class="time-card"><div class="time-label"><span class="time-dot gold"></span><span>Before your last day</span></div><h3>Gather the details</h3><ul class="task-list">
+          <li><label><input type="checkbox" data-task="a4"><span>Review the severance offer, release, and any deadlines; request time to read them.</span></label></li>
+          <li><label><input type="checkbox" data-task="a5"><span>Ask for final pay, unused leave, commissions, bonus, and expense timing.</span></label></li>
+          <li><label><input type="checkbox" data-task="a6"><span>Download benefit, retirement, equity, and employment documents you’re entitled to keep.</span></label></li>
+        </ul></article>
+        <article class="time-card"><div class="time-label"><span class="time-dot blue"></span><span>First week after</span></div><h3>Protect your runway</h3><ul class="task-list">
+          <li><label><input type="checkbox" data-task="a7"><span>File for unemployment through your state agency and follow its instructions.</span></label></li>
+          <li><label><input type="checkbox" data-task="a8"><span>Compare health coverage options and note the dates each option would begin.</span></label></li>
+          <li><label><input type="checkbox" data-task="a9"><span>List essential bills and contact providers early if you may need flexibility.</span></label></li>
+        </ul></article>
+        <article class="time-card"><div class="time-label"><span class="time-dot green"></span><span>Over the next few weeks</span></div><h3>Choose your next moves</h3><ul class="task-list">
+          <li><label><input type="checkbox" data-task="a10"><span>Compare monthly income, severance schedule, and essential expenses.</span></label></li>
+          <li><label><input type="checkbox" data-task="a11"><span>Decide what to do with retirement accounts after reviewing fees and tax effects.</span></label></li>
+          <li><label><input type="checkbox" data-task="a12"><span>Update your resume, reconnect with people, and choose a sustainable search rhythm.</span></label></li>
+        </ul></article>
+      </div>
+    </section>
+
+    <section class="section hr-section" id="hr">
+      <div class="split-heading"><div><p class="eyebrow">02 / Make the meeting useful</p><h2>Questions to ask HR</h2></div><p>It’s okay to take notes, ask for clarification, and follow up by email. You don’t need to make every decision in the room.</p></div>
+      <div class="question-grid">
+        <article class="question-card"><span class="q-number">01</span><h3>Pay & severance</h3><ul><li>What is my official last day, and when will my final paycheck arrive?</li><li>How are unused vacation, earned commissions, bonus, and expenses handled?</li><li>Is severance offered? What is the amount, schedule, and eligibility basis?</li><li>What does the agreement ask me to give up, and can I take time to review it?</li></ul></article>
+        <article class="question-card"><span class="q-number">02</span><h3>Health & other benefits</h3><ul><li>On what date does my medical, dental, and vision coverage end?</li><li>When and how will I receive COBRA information and the cost?</li><li>Can you provide the plan details and contact for the benefits administrator?</li><li>What happens to life insurance, disability coverage, and HSA/FSA funds?</li></ul></article>
+        <article class="question-card"><span class="q-number">03</span><h3>Retirement & equity</h3><ul><li>Who is the 401(k) or pension plan contact, and where are plan documents?</li><li>What is vested, and when will any employer contributions be posted?</li><li>What happens to stock options, RSUs, or other equity, and what dates apply?</li><li>Where can I find the written rules for my plan or award?</li></ul></article>
+        <article class="question-card"><span class="q-number">04</span><h3>Records & next steps</h3><ul><li>Can I have a copy of the separation terms and benefits summary?</li><li>How can employers verify my role and dates, and may I list a reference?</li><li>Will you provide information needed for an unemployment claim?</li><li>Who should I contact if I find a pay or benefits issue later?</li></ul></article>
+      </div>
+      <div class="callout"><span aria-hidden="true">✎</span><p><strong>Tip:</strong> After the meeting, send a short email summarizing what you understood and asking HR to correct anything you missed.</p></div>
+    </section>
+
+    <section class="section decision-section" id="decisions">
+      <div class="section-heading"><div><p class="eyebrow">03 / Decisions, in plain language</p><h2>Know what to compare</h2><p class="section-lede">Gather the written terms first. Your options depend on your plan, location, and circumstances.</p></div></div>
+      <div class="decision-list">
+        <details class="decision-item" open><summary><span class="decision-icon">$</span><span><b>Severance and final pay</b><small>Understand the offer and what is owed</small></span><span class="plus">+</span></summary><div class="decision-body"><p>Ask for the payment amount, dates, tax withholding, benefits continuation, and any conditions. Federal law does not generally require severance, but an agreement, policy, or other law may matter. Federal law does not require an immediate final paycheck; state rules may set different timing. Check your state labor department if timing or amounts are unclear.</p><div class="source-links"><a href="https://www.dol.gov/general/topic/benefits-other/severancepay" target="_blank" rel="noopener">DOL: Severance pay ↗</a><a href="https://www.dol.gov/general/topic/wages/lastpaycheck" target="_blank" rel="noopener">DOL: Last paycheck ↗</a><a href="https://www.dol.gov/agencies/whd/state/contacts" target="_blank" rel="noopener">Find your state labor office ↗</a></div></div></details>
+        <details class="decision-item"><summary><span class="decision-icon">+</span><span><b>Health coverage</b><small>Compare COBRA, Marketplace, and other plans</small></span><span class="plus">+</span></summary><div class="decision-body"><p>Confirm your coverage end date and compare premiums, deductibles, doctors, prescriptions, and start dates. COBRA may let eligible people continue the same plan, often at the full premium plus an administrative fee. Marketplace coverage may be available after losing job-based coverage. Election windows and effective dates matter, so check notices promptly and confirm details with the plan.</p><div class="source-links"><a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-workers" target="_blank" rel="noopener">DOL: COBRA worker FAQ ↗</a><a href="https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage/" target="_blank" rel="noopener">HealthCare.gov: Losing job coverage ↗</a></div></div></details>
+        <details class="decision-item"><summary><span class="decision-icon">◎</span><span><b>Unemployment</b><small>Start with your state agency</small></span><span class="plus">+</span></summary><div class="decision-body"><p>Eligibility, benefit amounts, waiting periods, and claim requirements vary by state and your situation. Apply through the state agency where you worked, follow its weekly or ongoing requirements, and answer questions accurately. If you receive severance, ask the state agency how to report it; don’t assume how it affects a claim.</p><div class="source-links"><a href="https://www.dol.gov/node/135721" target="_blank" rel="noopener">DOL: Find your state unemployment office ↗</a></div></div></details>
+        <details class="decision-item"><summary><span class="decision-icon">↗</span><span><b>Retirement and equity</b><small>Pause before cashing anything out</small></span><span class="plus">+</span></summary><div class="decision-body"><p>Ask about vesting, fees, plan distribution options, and deadlines for stock awards. Retirement plan choices can include leaving funds in the plan, a direct rollover, or a distribution, depending on plan rules. Taking money out may create taxes and possibly an additional tax. Compare carefully and consider qualified tax or financial advice for your situation.</p><div class="source-links"><a href="https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-termination-of-employment" target="_blank" rel="noopener">IRS: Leaving a job and retirement plans ↗</a><a href="https://www.irs.gov/taxtopics/tc412" target="_blank" rel="noopener">IRS: Rollovers ↗</a></div></div></details>
+        <details class="decision-item"><summary><span class="decision-icon">▤</span><span><b>Notice and workplace rights</b><small>Ask what applies to your situation</small></span><span class="plus">+</span></summary><div class="decision-body"><p>Some large layoffs or plant closings may fall under federal or state notice laws, but coverage depends on employer and event details. Ask HR for written information about the decision and any notice. If you believe a rule was not followed, contact the appropriate labor agency or an employment attorney.</p><div class="source-links"><a href="https://www.dol.gov/agencies/eta/layoffs/warn" target="_blank" rel="noopener">DOL: WARN Act overview ↗</a></div></div></details>
+      </div>
+    </section>
+
+    <section class="section scripts-section" id="scripts">
+      <div class="split-heading"><div><p class="eyebrow">04 / Words when they’re hard to find</p><h2>Borrow a script</h2></div><p>Adapt these to your voice. Each button copies the text so you can edit it before sending.</p></div>
+      <div class="script-grid">
+        <article class="script-card"><span class="script-tag">TO HR</span><h3>Request the written details</h3><blockquote id="script-one">Hi [Name], thanks for meeting with me. Could you please send me the written separation terms, benefits end dates, and the best contact for questions about final pay and benefits? I’d also appreciate confirmation of my last day and when I should expect the next documents. Thank you, [Name]</blockquote><button class="copy-button" data-copy="script-one" type="button">Copy script <span aria-hidden="true">↗</span></button></article>
+        <article class="script-card"><span class="script-tag">TO HR</span><h3>Ask for time to review</h3><blockquote id="script-two">Hi [Name], I’ve received the proposed agreement. I’d like time to read it carefully and understand the terms. Please confirm the review period and the date by which a response is requested. I’ll follow up with any questions. Thank you, [Name]</blockquote><button class="copy-button" data-copy="script-two" type="button">Copy script <span aria-hidden="true">↗</span></button></article>
+      </div>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="closing"><div class="closing-star" aria-hidden="true">✳</div><p class="eyebrow">A note to yourself</p><h2>This is a transition.<br><em>It is not your whole story.</em></h2><p>Take the practical steps you can today. The rest can happen one conversation at a time.</p><a href="#top" class="text-link">Back to the beginning ↑</a></section>
+  </main>
+  <footer><span>Next Chapter · Layoff guide</span><span>U.S. resources · Reviewed October 2026</span><span>Progress stays on this device.</span><p>This guide is general information, not legal, tax, financial, or benefits advice. Rules and options depend on your location, employer, plan, and personal circumstances. Confirm details with official agencies and qualified professionals.</p></footer>
+</body>
+</html>
